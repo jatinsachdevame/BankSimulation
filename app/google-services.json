@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "824278848639",
+    "firebase_url": "https://banksimulation-a0091.firebaseio.com",
+    "project_id": "banksimulation-a0091",
+    "storage_bucket": "banksimulation-a0091.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824278848639:android:2d93f840a9b338500b5b4a",
+        "android_client_info": {
+          "package_name": "com.example.banksimulation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824278848639-ffl5prf3d7botoav3nevqifuc5j6prrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.banksimulation",
+            "certificate_hash": "cd9b0a41c9a67c250491e2e1fe38d5feed64f7fd"
+          }
+        },
+        {
+          "client_id": "824278848639-am8mkvcsvmjusr3tfstucgf3vvjf32t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5fjwXlvS5Ls0aZMRxg7dvZeBFVTtUxZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824278848639-am8mkvcsvmjusr3tfstucgf3vvjf32t1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

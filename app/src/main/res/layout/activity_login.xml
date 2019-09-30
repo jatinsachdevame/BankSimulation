@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/advent_pro_thin"
+            android:text="My Bank"
+            android:textColor="#000"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/money" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/advent_pro_thin"
+            android:hint="email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/advent_pro_thin"
+            android:hint="********"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/advent_pro_thin"
+            android:gravity="center"
+            android:onClick="resetPassword"
+            android:text="Forgot password?"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="@font/advent_pro_thin"
+            android:onClick="login"
+            android:text="Login"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/advent_pro_thin"
+            android:gravity="center"
+            android:onClick="newUser"
+            android:text="Don't have an account? open here."
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

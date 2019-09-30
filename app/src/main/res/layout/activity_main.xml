@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/accountHolderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/advent_pro_thin"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/advent_pro_thin"
+                android:gravity="center"
+                android:text="Deposit"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <EditText
+                    android:id="@+id/deposit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:hint="Enter amount"
+                    android:drawableLeft="@drawable/dollar"
+                    android:fontFamily="@font/advent_pro_thin"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="@drawable/btn_bg"
+                    android:fontFamily="@font/advent_pro_thin"
+                    android:text="Deposit"
+                    android:onClick="deposit"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <EditText
+                    android:id="@+id/withdraw"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:hint="Enter amount"
+                    android:drawableLeft="@drawable/dollar"
+                    android:fontFamily="@font/advent_pro_thin"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="@drawable/btn_bg"
+                    android:fontFamily="@font/advent_pro_thin"
+                    android:text="Withdraw"
+                    android:onClick="withdraw"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/advent_pro_thin"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="100dp"
+                android:text="Your bank account details are"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Balance :"
+                android:fontFamily="@font/advent_pro_thin"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/txt_balance"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/btn_bg"
+                android:fontFamily="@font/advent_pro_thin"
+                android:text="History"
+                android:layout_gravity="center"
+                android:onClick="history"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
