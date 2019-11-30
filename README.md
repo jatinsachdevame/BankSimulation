@@ -6,7 +6,7 @@ The main feature of the app is to provide a conversational interface to provide 
 
 <table>
   <tr>
-    <td><img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/login.png" height = "480" width="270"></td>
+    <td><img src="ScreenShots/s1.jpg" height = "auto" width="auto"></td>
     <td><img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/signup.png" height = "480" width="270"></td>
     <td><img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/voice_input.png" height = "480" width="270"></td>
   </tr>
