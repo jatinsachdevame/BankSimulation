@@ -30,7 +30,7 @@ Java is used to develop this native android app.
 
 ### Backend Used
 
-- Firebase is used for bacnekd purposes.
+- Firebase is used for backend purposes.
 
 ## License
 
